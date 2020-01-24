@@ -1,0 +1,46 @@
+syytem.out.print
+Scanner scanner = new Scanner.
+fileds provide state to classes
+methods provide behavior to classes
+[class] m = new [class]();
+m.getHealth();
+public class Student {
+  private int age;
+  private double grade1;
+  private double grade2;
+  private double grade3;
+  
+  public int getAge(){
+    return age;
+  }
+  public void setAge(){
+    return age;
+  }
+  
+  %Exercise:
+  public class Student{
+    private String name;
+ 
+    public String getName(){
+      return name;
+    }
+    
+    public void setName(String name){
+      this.name=name;
+    }
+  }
+  
+  public class Calculator{
+    public void run(){
+      while (true){
+        system.out.println("Choose operator: 1=add, 2=sub, 3=mul, 4=div, 5=quit");
+        int userChoice=scanner.nextInt();
+        
+        if (userChoice==5){
+          return;
+        }
+        else if {userChoice > 0 && userChoice <5){
+          system.out.println("Enter operand 1: " + userChoice);
+          double oprand1=scanner.nextDouble();
+          
+        }
