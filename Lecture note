@@ -44,3 +44,6 @@ public class Student {
           double oprand1=scanner.nextDouble();
           
         }
+        
+Public class Character {
+  private
