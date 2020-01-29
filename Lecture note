@@ -45,5 +45,47 @@ public class Student {
           
         }
         
-Public class Character {
-  private
+1/29
+public class Main{
+  public static void main(String[] args){
+    SimpleExample s = new SimpleExample();
+    int sumEvensResult = s.sumEvens(max 5);
+    System.out.println("Sum Evens result: " + sumEvensResult);
+    
+    double area = s.rectArea(length 2.3, width 28.4);
+    System.out.println("Rectangle area: " + areas);
+  }
+}  
+public class SimpleExample{
+  private int max;  
+  public int simpleExample(){
+    Scannrt input = new Scanner(System.in);
+  }  
+  public int sumEvens(int max){
+    
+    int max = input,nexyInt();
+    int sum = 0;
+    for (int current = 0; current <= max; current+=2){
+      sum += current;
+    }
+    return sum;
+  }    
+  public double rectArea(double length, double width){
+    double result = length * width
+  }
+}
+
+public class Pizza{
+  private String topping;
+  private String crust;
+  private String sauce;
+  public Pizza (String topping, String crust, String sauce){
+    this.topping = topping;
+    this.crust = crust;
+    this.sauce = sauce;
+    
+  public double calculatePrice(){
+    double basePrice = 5;
+    double finalPrice = basePrice;
+    return finalPrice;
+}
